@@ -626,12 +626,6 @@ body {
   text-align: center;
 }
 
-.modal-form {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 16px;
-}
-
 .form-container {
   margin-bottom: 8px;
 }
@@ -723,6 +717,7 @@ textarea.form-input {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 input:checked + label > span {
@@ -742,4 +737,7 @@ input:checked + label > span > svg {
 .modal .cta {
   font-size: 16px;
   line-height: 1.5;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
