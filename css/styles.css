@@ -239,7 +239,7 @@ h2 {
     gap: 40px;
   }
 
-  .logo {
+  .header-section.is-open .logo {
     display: none;
   }
 
