@@ -442,6 +442,13 @@ h2 {
   }
 }
 
+.hero-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
+}
+
 /* ADVANTAGES SECTION */
 .advsntagec-icon-container {
   display: none;
@@ -1103,7 +1110,7 @@ input:checked + label > span > svg {
     display: flex;
     flex-direction: column;
     gap: 48px;
-    align-items: center;
+    /* align-items: center; */
   }
 
   h1 {
