@@ -32,7 +32,6 @@ h4,
 h5,
 h6 {
   margin: 0;
-  margin-bottom: 72px;
 }
 
 p {
@@ -126,6 +125,7 @@ h2 {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--color-navy-blue);
+  margin-bottom: 72px;
 }
 
 .cta {
@@ -490,7 +490,7 @@ h2 {
 }
 
 .team-item {
-  /* width: 264px; */
+  width: 264px;
   background-color: var(--color-white);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -871,13 +871,13 @@ textarea.form-input {
   color: var(--color-iris);
 }
 
-input:checked + label > span {
+input:checked + label > .accept-icon-wrapper {
   background-color: var(--color-ocean);
   border: none;
   fill: var(--color-cloud);
 }
 
-input:checked + label > span > svg {
+input:checked + label > .accept-icon-wrapper > svg {
   fill: var(--color-cloud);
 }
 
