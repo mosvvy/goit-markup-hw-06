@@ -229,6 +229,13 @@ h2 {
 }
 
 /* HEADER */
+
+.header-section {
+  border-bottom: 1px solid var(--color-cornflower);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
 .header-section > .container {
   display: flex;
   align-items: center;
@@ -393,7 +400,7 @@ h2 {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-image-mobile.jpg);
+      url(../images/hero-image-tablet.jpg);
   }
 }
 
@@ -403,7 +410,7 @@ h2 {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-image-mobile@2x.jpg);
+      url(../images/hero-image-tablet@2x.jpg);
   }
 }
 
@@ -429,7 +436,7 @@ h2 {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-image-mobile.jpg);
+      url(../images/hero-image.jpg);
   }
 }
 
@@ -439,7 +446,7 @@ h2 {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-image-mobile@2x.jpg);
+      url(../images/hero-image@2x.jpg);
   }
 }
 
@@ -486,6 +493,7 @@ h2 {
 .team-list {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 72px;
 }
 
@@ -1080,12 +1088,6 @@ input:checked + label > .accept-icon-wrapper > svg {
   .container {
     max-width: 1158px;
     padding: 0 15px;
-  }
-
-  .header-section {
-    border-bottom: 1px solid var(--color-cornflower);
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   }
 
   .header-section .logo {
